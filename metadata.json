@@ -1,0 +1,8 @@
+{
+  "name": "Agoza Leathers",
+  "description": "Premium leather manufacturer portfolio and e-commerce showcase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
