@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Clock, Star, Facebook, Linkedin, Instagram, Twitter } from 'lucide-react';
+import { FaFacebookF, FaInstagram, FaTelegramPlane, FaTiktok } from 'react-icons/fa';
 
 export function Footer() {
   return (
@@ -114,12 +115,59 @@ export function Footer() {
 
         </div>
 
-        <div className="pt-8 border-t border-sand-100/10 flex flex-col md:flex-row justify-between items-center text-[10px] font-sans tracking-widest uppercase text-sand-100/40">
-          <p>© 2026 Agoza Leather. All Rights Reserved.</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-sand-100 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-sand-100 transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-sand-100 transition-colors">Shipping</a>
+        <div className="pt-8 border-t border-sand-100/10">
+          <div className="flex flex-col items-center text-center text-[10px] font-sans tracking-widest uppercase text-sand-100/40">
+            <p className="mb-4">© 2026 Agoza Leather. All Rights Reserved.</p>
+
+            <div className="mb-4 text-[11px] sm:text-[12px] tracking-[0.2em] text-sand-100/70">
+              <p className="font-serif italic normal-case tracking-normal text-sm sm:text-base text-sand-100/90">Developed by Mihreteab Melese</p>
+              <p className="mt-1 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] text-sand-100/50">You can contact the developer:</p>
+            </div>
+
+            <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+              <a
+                href="https://t.me/Mihreteabmelese"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Telegram"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-amber-500/30 bg-leather-800/60 text-amber-500 transition-all duration-300 hover:-translate-y-0.5 hover:scale-110 hover:border-amber-400 hover:text-amber-400"
+              >
+                <FaTelegramPlane className="h-4 w-4" />
+              </a>
+              <a
+                href="https://www.facebook.com/share/1Csa4DN9RX/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-amber-500/30 bg-leather-800/60 text-amber-500 transition-all duration-300 hover:-translate-y-0.5 hover:scale-110 hover:border-amber-400 hover:text-amber-400"
+              >
+                <FaFacebookF className="h-4 w-4" />
+              </a>
+              <a
+                href="https://instagram.com/mihreteabmelese"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-amber-500/30 bg-leather-800/60 text-amber-500 transition-all duration-300 hover:-translate-y-0.5 hover:scale-110 hover:border-amber-400 hover:text-amber-400"
+              >
+                <FaInstagram className="h-4 w-4" />
+              </a>
+              <a
+                href="https://www.tiktok.com/@mihreteab.melese?_r=1&_t=ZS-97mQUoFzLIT"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-amber-500/30 bg-leather-800/60 text-amber-500 transition-all duration-300 hover:-translate-y-0.5 hover:scale-110 hover:border-amber-400 hover:text-amber-400"
+              >
+                <FaTiktok className="h-4 w-4" />
+              </a>
+            </div>
+
+            <div className="mt-4 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 text-[10px] font-sans tracking-widest uppercase text-sand-100/40">
+              <a href="#" className="hover:text-sand-100 transition-colors">Privacy Policy</a>
+              <a href="#" className="hover:text-sand-100 transition-colors">Terms of Service</a>
+              <a href="#" className="hover:text-sand-100 transition-colors">Shipping</a>
+            </div>
           </div>
         </div>
       </div>
